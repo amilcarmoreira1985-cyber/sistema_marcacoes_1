@@ -1,0 +1,8 @@
+echo "# sistema_marcacoes-" >> README.md
+git init 
+git add index.html
+git add README.md
+git commit -m "Adicionando o sistema de marcações"
+git remote add origin https://github.com/amilcarmoreira1985-cyber/sistema_marcacoes-.git
+git branch -M main
+git push -u origin main
